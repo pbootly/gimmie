@@ -29,7 +29,7 @@ CONCURRENCY=$(sanitize $2)
 FILENAME=$3
 
 if [ -z ${URL} ]; then
-               echo "Please entere a URL"
+               echo "Please enter a URL"
                exit 1
 fi
 
