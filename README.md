@@ -54,7 +54,7 @@ user           0m1.314s
 sys            0m5.865s
 ```
 
-Confirm there hasn't been any dataloss (defeats objective if you have to download regularly anyway, but this is the extent of current teseting)
+Confirm there hasn't been any dataloss (defeats objective if you have to download regularly anyway, but this is the extent of current testing)
 ```
 sha512sum *.dat
 c5041ae163cf0f65600acfe7f6a63f212101687d41a57a4e18ffd2a07a452cd8175b8f5a4868dd2330bfe5ae123f18216bdbc9e0f80d131e64b94913a7b40bb5  20_concurrent.dat
