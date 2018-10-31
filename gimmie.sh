@@ -80,4 +80,5 @@ done
 echo "Rebuilding chunks..."
 for chunk in $(seq $lastchunk); do
                cat $chunk.part >> $FILENAME
+               rm $chunk.part
 done
